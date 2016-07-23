@@ -4,6 +4,13 @@
   "version": "0.0.0",
   "description": "My awesome personal home page on the web.",
   "scripts": {
+    "start": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "load-grunt-config": "^0.19.2",
+    "time-grunt": "^1.4.0"
   }
 }
