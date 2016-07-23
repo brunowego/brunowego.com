@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "description": "My awesome personal home page on the web.",
   "scripts": {
-    "start": "grunt",
+    "dist": "grunt dist",
+    "start": "grunt server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

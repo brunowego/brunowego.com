@@ -1,3 +1,7 @@
+dist:
+  - clean:dist
+  - sass:dist
+
 server:
   - clean:server
   - sass:server
