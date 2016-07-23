@@ -14,6 +14,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.2.0",
     "load-grunt-config": "^0.19.2",
+    "ress": "^1.1.1",
     "time-grunt": "^1.4.0"
   }
 }
