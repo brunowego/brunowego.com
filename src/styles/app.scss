@@ -4,8 +4,25 @@
 
 @import 'ress/ress';
 
+:root {
+  font-family: Montserrat;
+}
+
+main {
+  display: block;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
 h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+
   > small {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
     display: block;
   }
 }
