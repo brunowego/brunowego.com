@@ -325,7 +325,8 @@ video {
 :root {
   font-family: Montserrat; }
 
-main {
+main,
+footer {
   display: block;
   padding-top: 4rem;
   padding-bottom: 3rem;
@@ -333,9 +334,13 @@ main {
 
 h1 {
   font-size: 3rem;
-  line-height: 3.5rem; }
+  line-height: 3.5rem;
+  margin-bottom: 1rem; }
   h1 > small {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
     display: block; }
+
+a {
+  color: inherit; }
