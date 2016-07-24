@@ -9,7 +9,10 @@ module.exports = {
         './tmp/assets/styles/*.css'
       ],
       server: {
-        baseDir: ['./tmp', './public']
+        baseDir: ['./tmp', './public'],
+        routes: {
+          '/assets': './assets'
+        }
       }
     }
   }

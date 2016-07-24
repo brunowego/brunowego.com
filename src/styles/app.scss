@@ -4,8 +4,11 @@
 
 @import 'ress/ress';
 
+@import 'icons';
+
 :root {
   font-family: Montserrat;
+  line-height: 1.5;
 }
 
 main,
@@ -30,5 +33,37 @@ h1 {
 }
 
 a {
-  color: inherit;
+  color: #cc292b;
+  text-decoration: none;
+}
+
+.i {
+  vertical-align: inherit;
+}
+
+.list {
+  list-style: none;
+
+  &--inline {
+    > li {
+      align-items: center;
+      display: inline-flex;
+
+      &:not(:first-child) {
+        margin-left: 1rem;
+      }
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+
+      > a {
+        display: flex;
+      }
+    }
+  }
+}
+
+.fz-god {
+  font-size: 3rem;
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "dist": "grunt dist",
     "start": "grunt server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webfont": "grunt webfont"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -14,6 +15,7 @@
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.2.0",
+    "grunt-webfont": "github:sapegin/grunt-webfont#master",
     "load-grunt-config": "^0.19.2",
     "ress": "^1.1.1",
     "time-grunt": "^1.4.0"

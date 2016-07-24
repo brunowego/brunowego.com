@@ -1,0 +1,49 @@
+/**
+ * Custom
+ */
+
+@font-face {
+  font-family: 'Bycons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/icons.woff2") format("woff2"),
+		url("/assets/fonts/icons.woff") format("woff");
+}
+
+.i {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'Bycons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-decoration: inherit;
+  text-rendering: auto;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+
+// Icons
+
+.i--dribbble::before {
+  content: '\f101';
+}
+
+.i--github::before {
+  content: '\f102';
+}
+
+.i--instagram::before {
+  content: '\f103';
+}
+
+.i--linkedin::before {
+  content: '\f104';
+}
+
+.i--twitter::before {
+  content: '\f105';
+}
