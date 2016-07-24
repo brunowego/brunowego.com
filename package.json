@@ -10,6 +10,7 @@
     "webfont": "grunt webfont"
   },
   "devDependencies": {
+    "flexboxgrid": "github:kristoferjoseph/flexboxgrid#7.0",
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.0.0",

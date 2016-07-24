@@ -2,8 +2,12 @@
  * Applications
  */
 
-@import 'ress/ress';
+$column-selector: '.gd' !default;
 
+@import 'ress/ress';
+@import 'flexboxgrid/sass/flexboxgrid';
+
+@import 'grid';
 @import 'icons';
 
 :root {
@@ -12,6 +16,7 @@
 }
 
 main,
+section,
 footer {
   display: block;
   padding-top: 4rem;
@@ -19,7 +24,12 @@ footer {
   text-align: center;
 }
 
-h1 {
+header {
+  margin-bottom: 3rem;
+}
+
+h1,
+.h1 {
   font-size: 3rem;
   line-height: 3.5rem;
   margin-bottom: 1rem;
@@ -30,6 +40,12 @@ h1 {
     line-height: 2rem;
     display: block;
   }
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 a {
@@ -66,4 +82,8 @@ a {
 
 .fz-god {
   font-size: 3rem;
+
+  @media screen and (max-width: $container-sm) {
+    font-size: 2rem;
+  }
 }
