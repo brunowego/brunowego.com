@@ -1,5 +1,6 @@
 dist:
   - clean:dist
+  - copy:dist
   - sass:dist
 
 server:
