@@ -322,8 +322,47 @@ video {
   color: #000;
   text-shadow: none; }
 
+/**
+ * Custom
+ */
+@font-face {
+  font-family: 'Bycons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/icons.woff2") format("woff2"), url("/assets/fonts/icons.woff") format("woff"); }
+
+.i {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'Bycons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-decoration: inherit;
+  text-rendering: auto;
+  text-transform: none;
+  vertical-align: middle; }
+
+.i--dribbble::before {
+  content: '\f101'; }
+
+.i--github::before {
+  content: '\f102'; }
+
+.i--instagram::before {
+  content: '\f103'; }
+
+.i--linkedin::before {
+  content: '\f104'; }
+
+.i--twitter::before {
+  content: '\f105'; }
+
 :root {
-  font-family: Montserrat; }
+  font-family: Montserrat;
+  line-height: 1.5; }
 
 main,
 footer {
@@ -343,4 +382,23 @@ h1 {
     display: block; }
 
 a {
-  color: inherit; }
+  color: #cc292b;
+  text-decoration: none; }
+
+.i {
+  vertical-align: inherit; }
+
+.list {
+  list-style: none; }
+  .list--inline > li {
+    align-items: center;
+    display: inline-flex; }
+    .list--inline > li:not(:first-child) {
+      margin-left: 1rem; }
+    .list--inline > li:not(:last-child) {
+      margin-right: 1rem; }
+    .list--inline > li > a {
+      display: flex; }
+
+.fz-god {
+  font-size: 3rem; }
