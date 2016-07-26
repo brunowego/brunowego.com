@@ -1,0 +1,9 @@
+/* TEAM */
+	Name: Bruno Wego
+	Site: https://github.com/brunowego
+	Twitter: @brunowego
+	Location: Brasília, BR
+
+/* SITE */
+	Version: 0.0.0
+	Technology: Node.js
