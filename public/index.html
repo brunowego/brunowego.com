@@ -2,17 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Bruno Wego - Full-stack engineer &amp; Entrepreneur</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="I'm focused in JavaScript (with ES6) stack, task automation and machine learning.">
+    <title>Bruno Wego - Full-stack engineer, UX/UI &amp; Entrepreneur</title>
     <link rel="stylesheet" href="/assets/styles/app.css">
   </head>
   <body>
     <main>
       <h1>
         <span>Bruno Wego</span>
-        <small>Full-stack engineer &amp; Entrepreneur</small>
+        <small>Full-stack engineer, UX/UI &amp; Entrepreneur</small>
       </h1>
+      <p>I'm focused in JavaScript (with ES6) stack, task automation and machine learning.</p>
     </main>
+    <section class="wrap">
+      <header>
+        <h1 class="h2">Current Customers</h1>
+      </header>
+      <nav>
+        <ul class="list row">
+          <li class="gd-sm-3 gd-sm-offset-3 gd-xs-12">
+            <a href="https://ondeq.com.br/">OndeQ</a>
+          </li>
+          <li class="gd-sm-3 gd-xs-12">
+            <a href="https://profissaoestudo.com/">Profissão Estudo</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
     <section class="wrap">
       <header>
         <h1 class="h2">Personal Projects</h1>
@@ -58,21 +76,6 @@
         </ul>
       </nav>
     </section>
-    <section class="wrap">
-      <header>
-        <h1 class="h2">Current Customers</h1>
-      </header>
-      <nav>
-        <ul class="list row">
-          <li class="gd-sm-3 gd-xs-12">
-            <a href="https://ondeq.com.br/">OndeQ</a>
-          </li>
-          <li class="gd-sm-3 gd-xs-12">
-            <a href="https://profissaoestudo.com/">Profissão Estudo</a>
-          </li>
-        </ul>
-      </nav>
-    </section>
     <footer>
       <h1 class="fz-god">
         <a href="mailto:hi@brunowego.com">hi@brunowego.com</a>
@@ -111,5 +114,24 @@
         </li>
       </ul>
     </footer>
+    <script>
+      WebFontConfig = {
+        google: { families: [ 'Montserrat:400,700:latin' ] }
+      };
+
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
+    <script>
+      var galite = galite || {};
+      galite.UA = 'UA-81294823-1';
+    </script>
   </body>
 </html>
