@@ -5,7 +5,7 @@
 $column-selector: '.gd' !default;
 
 @import 'ress/ress';
-@import 'flexboxgrid/sass/flexboxgrid';
+@import 'flexboxgrid/flexboxgrid';
 
 @import 'grid';
 @import 'icons';
@@ -83,7 +83,7 @@ a {
 .fz-god {
   font-size: 3rem;
 
-  @media screen and (max-width: $container-sm) {
+  @media screen and (max-width: 30rem) {
     font-size: 2rem;
   }
 }
