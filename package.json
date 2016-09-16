@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "My awesome personal home page on the web.",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "dist": "grunt dist",
     "start": "grunt server",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +12,7 @@
   },
   "devDependencies": {
     "flexboxgrid": "github:kristoferjoseph/flexboxgrid#7.0",
+    "gh-pages": "^0.11.0",
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.0.0",
