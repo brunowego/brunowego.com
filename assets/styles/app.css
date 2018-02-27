@@ -3,7 +3,7 @@
  * Applications
  */
 /*!
- * ress.css • v1.1.1
+ * ress.css • v1.2.2
  * MIT License
  * github.com/filipelinhares/ress
  */
@@ -20,6 +20,8 @@ html {
 *,
 ::before,
 ::after {
+  background-repeat: no-repeat;
+  /* Set `background-repeat: no-repeat` to all elements */
   box-sizing: inherit; }
 
 ::before,
@@ -30,8 +32,6 @@ html {
 
 /* Remove margin, padding of all elements and set background-no-repeat as default */
 * {
-  background-repeat: no-repeat;
-  /* Set `background-repeat: no-repeat` to all elements */
   padding: 0;
   /* Reset `padding` and `margin` of all elements */
   margin: 0; }
@@ -143,7 +143,7 @@ input {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"]
+[type="submit"],
 [role="button"] {
   cursor: pointer; }
 
@@ -284,7 +284,7 @@ video {
   /* Internet Explorer 11+, Windows Phone 8.1+ */ }
 
 /* # =================================================================
-   # Acessibility
+   # Accessibility
    # ================================================================= */
 /* Hide content from screens but not screenreaders */
 @media screen {
