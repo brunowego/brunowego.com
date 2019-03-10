@@ -1,5 +1,8 @@
+const sass = require('node-sass');
+
 module.exports = {
   options: {
+    implementation: sass,
     includePaths: ['./node_modules']
   },
   dist: {
