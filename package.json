@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "My awesome personal home page on the web.",
   "scripts": {
+    "predeploy": "npm run dist",
     "deploy": "gh-pages -d public",
     "dist": "grunt dist",
     "start": "grunt server",
