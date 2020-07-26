@@ -1399,16 +1399,27 @@ svg:not([fill]) {
   font-family: Montserrat;
   line-height: 1.5; }
 
+header,
 main,
 section,
 footer {
   display: block;
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   text-align: center; }
 
 header {
-  margin-bottom: 3rem; }
+  margin-bottom: 2rem;
+  min-height: 40vh; }
+
+main {
+  min-height: 30vh; }
+
+header,
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 h1,
 .h1 {
