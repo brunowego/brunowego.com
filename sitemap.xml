@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://brunowego.com/</loc>
-    <lastmod>2016-06-26T22:03:57.000Z</lastmod>
+    <loc>https://brunowego.com/</loc>
+    <lastmod>2020-08-19T02:25:45.777Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
