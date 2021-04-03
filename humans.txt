@@ -1,13 +1,9 @@
 /* TEAM */
-
-Developer: Bruno Wego
-Site: http://brunowego.com
-Twitter: @brunowego
-Location: Brasília, Brazil
-
+	Name: Bruno Wego
+	Site: https://github.com/brunowego
+	Twitter: @brunowego
+	Location: Brasília, BR
 
 /* SITE */
-
-Standards: HTML5, CSS3, WCAG 2.0 AA
-Components: ITCSS, BEM, Grunt
-Software: Visual Studio Code
+	Version: 0.0.0
+	Technology: Node.js
