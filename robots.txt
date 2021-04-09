@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /humans.txt
-
-Sitemap: http://brunowego.com/sitemap.xml
+Disallow:
